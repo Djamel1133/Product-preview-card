@@ -26,6 +26,7 @@
  
 body{
     font-family: "Montserrat", sans-serif;
+    font-display: swap;
     font-weight: var(--font-weight-large);
     font-size: var(--font-size-small);
     color: var(--black) ;
@@ -127,7 +128,7 @@ body{
     background-color: var(--very-dark-cyan) ;
  }
 
- @media (min-width: 768px)
+ @media (min-width: 48rem)
   {
     main{
       height: 97vh; /* le reste est pour footer : liens frontmentor et mon profile */
